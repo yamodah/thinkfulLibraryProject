@@ -22,10 +22,9 @@ function getMostCommonGenres(books) {
   const allGenres = books.map((book) => book.genre);
 
   //simplifying the allGenres to only have unique values by using Set
-<<<<<<< HEAD
+
   //and spread operator get an array 
-=======
->>>>>>> db2a884b69f2b36ec8b19055b566d8cdd42bf535
+
 
   const uniqueGenres = [...new Set(allGenres)];
 
@@ -36,7 +35,7 @@ function getMostCommonGenres(books) {
       num of books with that genre adding to the counter and 
 =======
       num of books with that genre adding tot he counter and 
->>>>>>> db2a884b69f2b36ec8b19055b566d8cdd42bf535
+
       storing that varible and then constructing the object that
       needs to be pushed into mostCommonGenres all this has to be 
       done within this loop to maintain the speciic count value */
