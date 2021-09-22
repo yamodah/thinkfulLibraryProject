@@ -56,7 +56,6 @@ function getMostPopularBooks(books) {
     return { name: book.title, count: borrowLogCount };
   });
   const mostPopulatBooks = newBooksWithCounts.sort((a, b) => b.count - a.count);
-  console.log(mostPopulatBooks);
   return mostPopulatBooks.slice(0, 5);
 }
 
